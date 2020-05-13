@@ -40,14 +40,14 @@ class TabulerForm extends Component {
     return (
       <div>
         <form>
-          <label>CSV file</label>
+          <label>CSV file:- </label>
           <input
             type="file"
             name="csvFile"
             onChange={this.props.handleCsvFileChange}
           />
 
-          <label>Number of days to fetch</label>
+          <label>Number of days to fetch:- </label>
           <input
             type="number"
             name="ndays"
@@ -55,7 +55,7 @@ class TabulerForm extends Component {
             onChange={this.props.handleChange}
           />
 
-          <label>Filter source</label>
+          <label>Filter the source:- </label>
           <input
             type="text"
             name="sourcename"
